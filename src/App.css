@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', 'Lato', sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 4.0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #d86c0d;  */
+    background-color: #365ec3; 
+    padding: 2.5% 4%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+  }
+  
+  .logo {
+    font-size: 2.7rem;
+    color: white;
+    font-weight: bold;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: cursive;
+  }
+  
+  .header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .header li {
+    margin-left: 3rem;
+  }
+  
+  .header a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #f1dcce;
+    /* transition: all 0.5s linear; */
+  }
+  
+  .header a:hover,
+  .header a:focus {
+    color: white;
+    border-bottom: 2px solid white;
+    transform: scale(2);
+  }
+

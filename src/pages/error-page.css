@@ -1,0 +1,30 @@
+.error-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-container h2 {
+    color:rgb(240, 209, 166);
+    text-align: center;
+    font-size: 3.6rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
+    margin-top: 13%;
+  }
+
+.error-container button {
+    padding: 0.8% 2.5%;
+    text-decoration: none;
+    background-color: #e28f47;
+    color: #fcf9f6;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2.5px;
+}
+
+.error-container button:hover {
+    background-color: #e78025;
+}
